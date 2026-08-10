@@ -6,6 +6,8 @@
 
 User-agent: *
 Allow: /
+User-agent: *
+Disallow: /favicon.png
 
 # Allow major AI and search crawlers
 User-agent: Googlebot
