@@ -88,12 +88,6 @@ document.querySelectorAll(".magnetic").forEach((element) => {
   });
 });
 
-document.querySelector(".lead-form").addEventListener("submit", (event) => {
-  event.preventDefault();
-  const note = document.querySelector("[data-form-note]");
-  note.textContent = "Inquiry prepared. Contact Spreadwise directly by email or phone to submit your brief.";
-});
-
 const canvas = document.querySelector("[data-constellation]");
 
 if (canvas && !prefersReducedMotion) {
