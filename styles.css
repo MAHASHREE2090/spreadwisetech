@@ -224,6 +224,7 @@ textarea {
   min-height: 100svh;
   padding: clamp(116px, 16vh, 170px) 0 64px;
   overflow: hidden;
+  background: #000 !important;
 }
 
 .hero-canvas,
@@ -1229,4 +1230,12 @@ textarea:focus {
     width: 34px;
     height: 34px;
   }
+}
+html,
+body {
+    background: #000 !important;
+}
+
+canvas[data-constellation] {
+    background: #000 !important;
 }
